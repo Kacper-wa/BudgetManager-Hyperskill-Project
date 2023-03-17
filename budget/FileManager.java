@@ -28,7 +28,7 @@ public class FileManager {
                         writer.println(purchase);
                         totalSum += purchase.getSumProduct();
                         if (i == list.size() - 1) {
-                            writer.printf("Total sum for %s category: $%.2f%n", type.getName(), totalSum);
+                            writer.printf("Total sum of %s category: $%.2f%n", type.getName(), totalSum);
                             totalSum = 0.0;
                         }
                         allSum += purchase.getSumProduct();
